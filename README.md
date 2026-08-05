@@ -1,36 +1,36 @@
 # Databricks Data Engineer — Professional Certification Prep
 
-Proyecto portfolio end-to-end en PySpark/Colab para preparar el examen
-**Databricks Certified Data Engineer Professional**.
+End-to-end portfolio project in PySpark/Colab to prepare for the
+**Databricks Certified Data Engineer Professional** exam.
 
-## Arquitectura del proyecto
+## Project Architecture
 
 ```
 databricks-de-pro-prep/
 ├── README.md
 ├── .gitignore
 ├── docs/
-│   ├── project-setup.md          # instrucciones y build order del proyecto
-│   └── calendario-databricks.md  # plan de estudio (~5-6 semanas)
-├── private/                      # NO se sube a git (ver .gitignore)
-│   └── interview-questions/      # banco de preguntas de entrevista, uso personal
+│   ├── project-setup.md          # project instructions and build order
+│   └── calendario-databricks.md  # study plan (~5-6 weeks)
+├── private/                      # NOT pushed to git (see .gitignore)
+│   └── interview-questions/      # interview question bank, personal use
 └── notebooks/
     ├── module_1_medallion_architecture.ipynb   # Bronze/Silver/Gold
-    ├── module_2_delta_lake.ipynb               # (pendiente)
-    ├── module_3_batch_pipelines.ipynb          # (pendiente)
-    ├── module_4_autoloader_streaming.ipynb     # (pendiente)
-    ├── module_5_dlt.ipynb                      # (pendiente)
-    ├── module_6_scd.ipynb                      # (pendiente)
-    ├── module_7_unity_catalog.ipynb            # (pendiente)
-    ├── module_8_testing.ipynb                  # (pendiente)
-    ├── module_9_cicd.ipynb                     # (pendiente)
-    └── module_10_mock_exam.ipynb               # (pendiente)
+    ├── module_2_delta_lake.ipynb               # (pending)
+    ├── module_3_batch_pipelines.ipynb          # (pending)
+    ├── module_4_autoloader_streaming.ipynb     # (pending)
+    ├── module_5_dlt.ipynb                      # (pending)
+    ├── module_6_scd.ipynb                      # (pending)
+    ├── module_7_unity_catalog.ipynb            # (pending)
+    ├── module_8_testing.ipynb                  # (pending)
+    ├── module_9_cicd.ipynb                     # (pending)
+    └── module_10_mock_exam.ipynb               # (pending)
 ```
 
-## Módulos (orden de build)
+## Modules (build order)
 
-| # | Módulo | Dominio examen |
-|---|--------|-----------------|
+| # | Module | Exam Domain |
+|---|--------|--------------|
 | 1 | Medallion Architecture | Data Modeling |
 | 2 | Delta Lake (ACID, MERGE, time travel) | Tooling |
 | 3 | Batch pipelines + PySpark | Data Processing |
@@ -42,7 +42,7 @@ databricks-de-pro-prep/
 | 9 | CI/CD | Tooling |
 | 10 | Mock exam + portfolio | All domains |
 
-Cada notebook corre standalone en Google Colab (instala PySpark/Delta en la primera celda).
+Each notebook runs standalone in Google Colab (installs PySpark/Delta in the first cell).
 
-Ver `docs/calendario-databricks.md` para el plan de estudio y `docs/project-setup.md`
-para las instrucciones completas usadas en este proyecto.
+See `docs/calendario-databricks.md` for the study plan and `docs/project-setup.md`
+for the full instructions used to build this project.
